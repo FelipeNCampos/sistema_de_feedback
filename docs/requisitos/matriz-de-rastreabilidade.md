@@ -4,7 +4,7 @@ Sistema web de feedback e desenvolvimento de competências.
 
 Versão 0.1, 17/11/2026. Responsável: Kezer. Situação: aguardando validação do grupo.
 
-Base: [`requisitos.md`](requisitos.md) v0.3 (RF01–RF22, RN01–RN06, RNF01–RNF06) e [`casos-de-uso.drawio`](casos-de-uso.drawio). Todos os IDs desta matriz são os da lista geral; nada foi renumerado aqui.
+Base: [`requisitos.md`](requisitos.md) v0.3 (RF01–RF22, RN01–RN06, RNF01–RNF06) e [`casos-de-uso.drawio`](../casos-de-uso/casos-de-uso.drawio). Todos os IDs desta matriz são os da lista geral; nada foi renumerado aqui.
 
 ## 1 Convenções
 
@@ -184,7 +184,7 @@ Leitura prática: **RF06 e RF12 são os dois pontos de maior acoplamento**. Muda
 
 ## 8 Matriz vertical — requisito sobre artefatos de projeto
 
-Entidades conforme o [MER](modelo-entidade-relacionamento.md) atual (v0.1). "A criar" significa que a entidade **não existe** no MER versionado.
+Entidades conforme o [MER](../modelagem/modelo-entidade-relacionamento.md) atual (v0.1). "A criar" significa que a entidade **não existe** no MER versionado.
 
 | RF | Entidade | Situação | Tela (Figma) |
 |---|---|---|---|

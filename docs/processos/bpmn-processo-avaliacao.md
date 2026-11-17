@@ -2,7 +2,7 @@
 
 Sistema web de feedback e desenvolvimento de competências.
 
-Versão 0.1, 17/11/2026. Responsável: Gabriel Mendes (P4). Os IDs seguem a [Lista Geral de Requisitos](requisitos.md).
+Versão 0.1, 17/11/2026. Responsável: Gabriel Mendes (P4). Os IDs seguem a [Lista Geral de Requisitos](../requisitos/requisitos.md).
 
 ## 1 Sobre o diagrama
 
@@ -15,7 +15,7 @@ O arquivo tem duas páginas:
 | Feedback do dia a dia (atual) | Gestor, Colaborador | Feedback informal, positivo ou construtivo, e o que acontece depois dele |
 | Avaliação formal anual (atual) | RH, Gestor, Colaborador | Avaliação anual em planilha, da distribuição até o resultado |
 
-Fontes: entrevista com a professora (resumo na seção 2 da [lista geral](requisitos.md)) e os [questionários aplicados](questionarios.md) (Q1: gestora; Q2: colaborador).
+Fontes: entrevista com a professora (resumo na seção 2 da [lista geral](../requisitos/requisitos.md)) e os [questionários aplicados](../elicitacao/questionarios.md) (Q1: gestora; Q2: colaborador).
 
 ## 2 Feedback do dia a dia
 
@@ -56,4 +56,4 @@ Com o sistema, o roteiro da lista geral (**coletar fatos → dar o feedback → 
 - a rodada de avaliação mostra quem respondeu e compara a autoavaliação com a média dos outros ao fim do prazo (D06, D07);
 - "Meu desenvolvimento", "Meu time" e o histórico com gráfico de evolução substituem as planilhas (D08).
 
-O registro do feedback informal no sistema está descrito no [caso de uso UC04](caso-de-uso-registrar-feedback-informal.md).
+O registro do feedback informal no sistema está descrito no [caso de uso UC04](../casos-de-uso/uc04-registrar-feedback-informal.md).

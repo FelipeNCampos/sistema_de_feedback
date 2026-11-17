@@ -2,7 +2,7 @@
 
 Sistema web de feedback e desenvolvimento de competências.
 
-Versão 0.1, 17/11/2026. Responsável: Gabriel Mendes (P4). Os IDs seguem a [Lista Geral de Requisitos](requisitos.md).
+Versão 0.1, 17/11/2026. Responsável: Gabriel Mendes (P4). Os IDs seguem a [Lista Geral de Requisitos](../requisitos/requisitos.md).
 
 > **Sobre o nome:** na divisão de tarefas este caso de uso se chama "Registrar feedback informal". Na lista geral ele é o **UC04 Dar feedback**. Para não criar um ID novo, usamos o **UC04**. O feedback informal é o feedback avulso, dado a qualquer momento (RF06), fora de uma rodada de avaliação.
 
@@ -17,7 +17,7 @@ Versão 0.1, 17/11/2026. Responsável: Gabriel Mendes (P4). Os IDs seguem a [Lis
 | Ator secundário | Receptor do feedback (recebe a notificação) |
 | Requisitos | RF06, RF07, RF08, RF09, RF10; RN01, RN02, RN04; RNF04, RNF05 |
 | Relacionamentos | `<<include>>` Notificar participantes; `<<extend>>` UC07 Gerenciar plano de ação [construtivo] |
-| Dores resolvidas | D01, D03 e D04 do [BPMN do processo atual](bpmn-processo-avaliacao.md) |
+| Dores resolvidas | D01, D03 e D04 do [BPMN do processo atual](../processos/bpmn-processo-avaliacao.md) |
 | Prioridade | Alta (é o centro do sistema: "dar um feedback cabe em uma tela só") |
 
 ```mermaid

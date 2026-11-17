@@ -141,7 +141,7 @@ Os requisitos deste documento vieram da **entrevista, das anotações e do enunc
 
 ## 9 Casos de uso
 
-Os diagramas estão em [`casos-de-uso.drawio`](casos-de-uso.drawio) (abrir em [app.diagrams.net](https://app.diagrams.net) ou na extensão Draw.io do VS Code). O arquivo tem duas páginas: **Visão geral** e **UC07 Plano de ação** (detalhado).
+Os diagramas estão em [`casos-de-uso.drawio`](../casos-de-uso/casos-de-uso.drawio) (abrir em [app.diagrams.net](https://app.diagrams.net) ou na extensão Draw.io do VS Code). O arquivo tem duas páginas: **Visão geral** e **UC07 Plano de ação** (detalhado).
 
 | UC | Nome | Atores | Requisitos |
 |---|---|---|---|

@@ -2,7 +2,7 @@
 
 Sistema web de feedback e desenvolvimento de competências.
 
-Versão 0.1, 17/11/2026. Responsável: Gabriel Mendes (P4). Os IDs de requisitos seguem a [Lista Geral de Requisitos](requisitos.md).
+Versão 0.1, 17/11/2026. Responsável: Gabriel Mendes (P4). Os IDs de requisitos seguem a [Lista Geral de Requisitos](../requisitos/requisitos.md).
 
 > **Observação:** os respondentes abaixo são **fictícios** (nomes e telefones inventados). Eles foram criados para o exercício da disciplina e representam os dois perfis principais do sistema: gestor e colaborador.
 

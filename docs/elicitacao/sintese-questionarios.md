@@ -2,7 +2,7 @@
 
 Sistema web de feedback e desenvolvimento de competências.
 
-Versão 0.1, 17/11/2026. Responsável: Gabriel Mendes (P4). Fonte: [questionários aplicados](questionarios.md) (Q1: Mariana Lopes, gestora; Q2: Rafael Souza, colaborador). Os IDs seguem a [Lista Geral de Requisitos](requisitos.md).
+Versão 0.1, 17/11/2026. Responsável: Gabriel Mendes (P4). Fonte: [questionários aplicados](questionarios.md) (Q1: Mariana Lopes, gestora; Q2: Rafael Souza, colaborador). Os IDs seguem a [Lista Geral de Requisitos](../requisitos/requisitos.md).
 
 ## 1 Resumo
 
@@ -51,4 +51,4 @@ Pedidos que não têm requisito na lista geral. Ficam **sem ID** até o Caique e
 
 - Os questionários **validam** o escopo da lista geral, principalmente RF06 (fato obrigatório em uma tela só), RF12 a RF15 (plano de ação com check-ins) e RF19 (comparar autoavaliação com a média dos outros).
 - As maiores prioridades para quem respondeu são: registrar rápido (RF06, RNF05), acompanhar o plano (RF14) e ver o histórico num lugar só (RF20, RF21, RF22).
-- As dores levantadas aqui alimentam o [BPMN do processo atual](bpmn-processo-avaliacao.md) (dores D01 a D08).
+- As dores levantadas aqui alimentam o [BPMN do processo atual](../processos/bpmn-processo-avaliacao.md) (dores D01 a D08).
