@@ -8,6 +8,10 @@ Documentação inicial para um sistema de avaliação mútua, com seleção de p
 - [Domínio e modelo de domínio](docs/dominio.md): conceitos, responsabilidades, fluxo e relações conceituais.
 - [Modelo Entidade Relacionamento](docs/modelo-entidade-relacionamento.md): entidades, cardinalidades, restrições e diagramas Mermaid.
 - [Dicionário de dados](docs/dicionario-de-dados.md): atributos, tipos propostos, validações e correspondência com os campos originais.
+- [Questionários](docs/questionarios.md): instrumento de levantamento e as duas aplicações (gestora e colaborador).
+- [Síntese dos questionários](docs/sintese-questionarios.md): achados ligados aos requisitos da lista geral, conflitos e sugestões.
+- [BPMN do processo de avaliação](docs/bpmn-processo-avaliacao.md): processo atual (feedback do dia a dia e avaliação anual) com as principais dores.
+- [Caso de uso UC04: Registrar feedback informal](docs/caso-de-uso-registrar-feedback-informal.md): fluxos principal, alternativos e de exceção.
 
 Versão 0.1, de 20 de outubro de 2026. As decisões propostas e as questões pendentes estão identificadas na especificação. Este repositório contém documentação; não representa uma implementação do sistema.
 
