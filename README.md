@@ -1,14 +1,27 @@
-# Sistema de criação e gerenciamento de feedbacks
+# Sistema de feedback e gestão de competências
 
-Documentação inicial para um sistema de avaliação mútua, com seleção de pares ou times, questionários organizados em grupos de parâmetros e histórico por usuário. Na seleção de times, todos os integrantes elegíveis de cada time avaliam uns aos outros nos dois sentidos.
+Projeto acadêmico da disciplina **Domínios de Software**, na área de gestão de competências. O objetivo é especificar um sistema web em que gestores e colaboradores trocam feedbacks (formais e informais, positivos e construtivos), respondem rodadas de avaliação por questionário, acompanham planos de ação e veem a própria evolução.
 
-`PROF` significa profissional. O campo `score` define o tipo de avaliação do parâmetro: escala de 0 a 10, escala de 0 a 5 ou booleano. Dados não são excluídos fisicamente; são desativados ou cancelados, conforme a entidade.
+## Documentação
 
-- [Especificação de Requisitos IEEE 830](docs/especificacao-requisitos-ieee830.md): escopo, perfis, requisitos, regras, critérios de aceitação e rastreabilidade.
-- [Domínio e modelo de domínio](docs/dominio.md): conceitos, responsabilidades, fluxo e relações conceituais.
-- [Modelo Entidade Relacionamento](docs/modelo-entidade-relacionamento.md): entidades, cardinalidades, restrições e diagramas Mermaid.
-- [Dicionário de dados](docs/dicionario-de-dados.md): atributos, tipos propostos, validações e correspondência com os campos originais.
+| Pasta                                  | Conteúdo                                                                                                                                                                                                                                                                                                            |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [docs/requisitos](docs/requisitos)     | [Lista geral de requisitos](docs/requisitos/requisitos.md), [especificação IEEE 830](docs/requisitos/especificacao-requisitos-ieee830.md), [especificação suplementar ISO 25010](docs/requisitos/especificacao-suplementar-iso25010.md) e [matriz de rastreabilidade](docs/requisitos/matriz-de-rastreabilidade.md) |
+| [docs/casos-de-uso](docs/casos-de-uso) | Diagrama de casos de uso (`.drawio`) e os casos de uso detalhados (UC03, UC04)                                                                                                                                                                                                                                      |
+| [docs/elicitacao](docs/elicitacao)     | [Questionários](docs/elicitacao/questionarios.md), [síntese](docs/elicitacao/sintese-questionarios.md) e [análise de sistemas análogos](docs/elicitacao/analise-software-alternativos.md)                                                                                                                           |
+| [docs/modelagem](docs/modelagem)       | [Domínio](docs/modelagem/dominio.md), [MER](docs/modelagem/modelo-entidade-relacionamento.md) e [dicionário de dados](docs/modelagem/dicionario-de-dados.md)                                                                                                                                                        |
+| [docs/processos](docs/processos)       | [BPMN do processo atual de avaliação](docs/processos/bpmn-processo-avaliacao.md)                                                                                                                                                                                                                                    |
+| [docs/prototipo](docs/prototipo)       | Imagens das telas do protótipo                                                                                                                                                                                                                                                                                      |
 
-Versão 0.1, de 20 de outubro de 2026. As decisões propostas e as questões pendentes estão identificadas na especificação. Este repositório contém documentação; não representa uma implementação do sistema.
+Os diagramas `.drawio` abrem no [diagrams.net](https://app.diagrams.net); os diagramas Mermaid aparecem direto no GitHub.
 
-Os diagramas estão em Mermaid e podem ser visualizados no GitHub ou em um editor compatível.
+## Equipe
+
+| Integrante        | GitHub                                               |
+| ----------------- | ---------------------------------------------------- |
+| Caique Duarte     | [@caiqueduart](https://github.com/caiqueduart)       |
+| Felipe Nunes      | [@FelipeNCampos](https://github.com/FelipeNCampos)   |
+| Gabriel Matos     | [@gabrielmmendes](https://github.com/gabrielmmendes) |
+| Gabriel Tessarolo | [@gthUFG](https://github.com/gthUFG)                 |
+| Kezer dos Santos  | [@KezerSouza](https://github.com/KezerSouza)         |
+| Vitoria Luz       | [@Vitorialuz229](https://github.com/Vitorialuz229)   |

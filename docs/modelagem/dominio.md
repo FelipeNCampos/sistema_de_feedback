@@ -82,4 +82,4 @@ O parâmetro P1 pertence ao grupo Comunicação e integra a coleta C1. Após sua
 
 ## Limites e decisões propostas
 
-Não há autoavaliação, pesos individuais, múltiplos grupos simultâneos para o mesmo parâmetro nem formulários diferentes por par nesta versão. `PROF` significa profissional e `score` define o tipo de avaliação, conforme confirmado pelo usuário. Permissões, multiplicidade de perfis e política de liberação dependem das pendências da [especificação](especificacao-requisitos-ieee830.md). Planos de ação, metas e avaliação 360° constituem extensões a detalhar.
+Não há autoavaliação, pesos individuais, múltiplos grupos simultâneos para o mesmo parâmetro nem formulários diferentes por par nesta versão. `PROF` significa profissional e `score` define o tipo de avaliação, conforme confirmado pelo usuário. Permissões, multiplicidade de perfis e política de liberação dependem das pendências da [especificação](../requisitos/especificacao-requisitos-ieee830.md). Planos de ação, metas e avaliação 360° constituem extensões a detalhar.

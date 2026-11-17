@@ -163,7 +163,7 @@ Os critérios desta seção são metas de projeto a validar, e não capacidades 
 
 ### 3.5 Requisitos de dados
 
-O modelo deve manter usuários, times, relações de trabalho, grupos e parâmetros do catálogo, coletas com seu modo de seleção, vínculos dos pares ou times selecionados por coleta, cópias dos grupos e parâmetros por coleta, avaliações, respostas e eventos de auditoria. Seleções usam indicador de atividade; os pares finais ficam materializados nas avaliações dos dois sentidos na abertura. Score e sua cópia são tipos enumerados; valor admite um número inteiro ou booleano nativo, validado conforme o tipo da cópia. Chaves estrangeiras devem impedir referências inexistentes. As referências e restrições de escopo estão detalhadas no [MER](modelo-entidade-relacionamento.md) e no [dicionário](dicionario-de-dados.md).
+O modelo deve manter usuários, times, relações de trabalho, grupos e parâmetros do catálogo, coletas com seu modo de seleção, vínculos dos pares ou times selecionados por coleta, cópias dos grupos e parâmetros por coleta, avaliações, respostas e eventos de auditoria. Seleções usam indicador de atividade; os pares finais ficam materializados nas avaliações dos dois sentidos na abertura. Score e sua cópia são tipos enumerados; valor admite um número inteiro ou booleano nativo, validado conforme o tipo da cópia. Chaves estrangeiras devem impedir referências inexistentes. As referências e restrições de escopo estão detalhadas no [MER](../modelagem/modelo-entidade-relacionamento.md) e no [dicionário](../modelagem/dicionario-de-dados.md).
 
 ### 3.6 Critérios de aceitação
 
