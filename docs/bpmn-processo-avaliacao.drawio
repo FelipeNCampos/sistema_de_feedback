@@ -1,0 +1,265 @@
+<mxfile host="app.diagrams.net" version="24.0.0">
+  <diagram id="p1" name="Feedback do dia a dia (atual)">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1754" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p1-pool" value="Empresa: feedback do dia a dia (processo atual)" style="swimlane;html=1;horizontal=0;startSize=30;fontStyle=1;fontSize=13;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1640" height="520" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-lg" value="Gestor" style="swimlane;html=1;horizontal=0;startSize=30;fontSize=12;fillColor=none;" vertex="1" parent="p1-pool">
+          <mxGeometry x="30" y="0" width="1610" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-lc" value="Colaborador" style="swimlane;html=1;horizontal=0;startSize=30;fontSize=12;fillColor=none;" vertex="1" parent="p1-pool">
+          <mxGeometry x="30" y="300" width="1610" height="220" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p1-s1" value="Situação observada" style="shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="50" y="150" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-t1" value="Anotar o fato&lt;br&gt;(caderno, Excel ou memória)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="120" y="140" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-ds1" value="Caderno / planilha pessoal" style="shape=datastore;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="p1-lg">
+          <mxGeometry x="130" y="225" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-g1" value="Vai dar feedback?" style="shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="290" y="145" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-e0" value="Fato esquecido" style="shape=mxgraph.bpmn.event;html=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;labelBackgroundColor=none;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="295" y="240" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-t2" value="Marcar conversa por WhatsApp ou agenda" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="380" y="140" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-t3" value="Dar o feedback na conversa" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="560" y="140" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-g2" value="Tipo do feedback?" style="shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="900" y="145" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-e1" value="Elogio dado, sem registro" style="shape=mxgraph.bpmn.event;html=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;labelBackgroundColor=none;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="905" y="235" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-t4" value="Combinar ações de boca" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="990" y="140" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-t5" value="Acompanhar quando lembrar" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="1340" y="140" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-e2" value="Resultado não registrado" style="shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="1530" y="150" width="40" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p1-c1" value="Ouvir o feedback&lt;br&gt;(nada fica por escrito)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p1-lc">
+          <mxGeometry x="710" y="80" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-c2" value="Tentar aplicar as ações sozinho" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p1-lc">
+          <mxGeometry x="1100" y="80" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p1-d01" value="&lt;b&gt;D01&lt;/b&gt; Fatos ficam no papel, no Excel ou na memória e se perdem" style="shape=partialRectangle;html=1;top=0;right=0;bottom=0;fillColor=#fff5f5;align=left;verticalAlign=middle;spacingLeft=6;whiteSpace=wrap;strokeColor=#b85450;strokeWidth=2;fontColor=#b85450;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="105" y="15" width="175" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-d02" value="&lt;b&gt;D02&lt;/b&gt; Conversa marcada por fora, sem lembrete: é adiada ou esquecida" style="shape=partialRectangle;html=1;top=0;right=0;bottom=0;fillColor=#fff5f5;align=left;verticalAlign=middle;spacingLeft=6;whiteSpace=wrap;strokeColor=#b85450;strokeWidth=2;fontColor=#b85450;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="370" y="15" width="175" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-d03" value="&lt;b&gt;D03&lt;/b&gt; Feedback genérico, sem fato concreto (&quot;comunique-se melhor&quot;)" style="shape=partialRectangle;html=1;top=0;right=0;bottom=0;fillColor=#fff5f5;align=left;verticalAlign=middle;spacingLeft=6;whiteSpace=wrap;strokeColor=#b85450;strokeWidth=2;fontColor=#b85450;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="560" y="15" width="175" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-d04" value="&lt;b&gt;D04&lt;/b&gt; Ações combinadas de boca, sem prazo nem registro" style="shape=partialRectangle;html=1;top=0;right=0;bottom=0;fillColor=#fff5f5;align=left;verticalAlign=middle;spacingLeft=6;whiteSpace=wrap;strokeColor=#b85450;strokeWidth=2;fontColor=#b85450;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="985" y="15" width="175" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-d05" value="&lt;b&gt;D05&lt;/b&gt; Sem check-ins: ninguém sabe se a pessoa melhorou" style="shape=partialRectangle;html=1;top=0;right=0;bottom=0;fillColor=#fff5f5;align=left;verticalAlign=middle;spacingLeft=6;whiteSpace=wrap;strokeColor=#b85450;strokeWidth=2;fontColor=#b85450;fontSize=11;" vertex="1" parent="p1-lg">
+          <mxGeometry x="1335" y="15" width="175" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p1-f1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p1-s1" target="p1-t1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p1-t1" target="p1-g1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f3" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p1-g1" target="p1-t2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f4" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p1-g1" target="p1-e0">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p1-t2" target="p1-t3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="p1-t3" target="p1-c1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p1-c1" target="p1-g2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f8" value="Positivo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p1-g2" target="p1-e1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f9" value="Construtivo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p1-g2" target="p1-t4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="p1-t4" target="p1-c2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=1;exitY=0.5;entryX=0.5;entryY=1;" edge="1" parent="1" source="p1-c2" target="p1-t5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-f12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p1-t5" target="p1-e2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-a0" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1" source="p1-t1" target="p1-ds1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-a1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="p1-d01" target="p1-t1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-a2" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="p1-d02" target="p1-t2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-a3" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="p1-d03" target="p1-t3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-a4" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="p1-d04" target="p1-t4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1-a5" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="p1-d05" target="p1-t5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p1-nota" value="Processo atual (AS-IS), sem sistema. As dores em vermelho (D01 a D05) estão detalhadas em bpmn-processo-avaliacao.md. A avaliação formal está na página &quot;Avaliação formal anual (atual)&quot;." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="900" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2" name="Avaliação formal anual (atual)">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1754" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p2-pool" value="Empresa: avaliação formal anual (processo atual)" style="swimlane;html=1;horizontal=0;startSize=30;fontStyle=1;fontSize=13;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1640" height="720" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-lr" value="RH" style="swimlane;html=1;horizontal=0;startSize=30;fontSize=12;fillColor=none;" vertex="1" parent="p2-pool">
+          <mxGeometry x="30" y="0" width="1610" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-lg" value="Gestor" style="swimlane;html=1;horizontal=0;startSize=30;fontSize=12;fillColor=none;" vertex="1" parent="p2-pool">
+          <mxGeometry x="30" y="300" width="1610" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-lc" value="Colaborador" style="swimlane;html=1;horizontal=0;startSize=30;fontSize=12;fillColor=none;" vertex="1" parent="p2-pool">
+          <mxGeometry x="30" y="520" width="1610" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p2-s1" value="Início do ciclo anual" style="shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="50" y="110" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-r1" value="Enviar planilha de avaliação por e-mail" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="120" y="100" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-pg1" value="" style="shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=parallel;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="300" y="105" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-r2" value="Conferir as planilhas recebidas" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="680" y="100" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-g3" value="Todos responderam?" style="shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=top;labelBackgroundColor=none;verticalAlign=bottom;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="940" y="105" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-r3" value="Cobrar pendentes por e-mail e WhatsApp" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="895" y="215" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-r4" value="Consolidar as respostas à mão" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="1090" y="100" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-r5" value="Enviar o resultado ao gestor (meses depois)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="1270" y="100" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-d06" value="&lt;b&gt;D06&lt;/b&gt; RH cobra pendências uma a uma; ninguém vê quem não respondeu" style="shape=partialRectangle;html=1;top=0;right=0;bottom=0;fillColor=#fff5f5;align=left;verticalAlign=middle;spacingLeft=6;whiteSpace=wrap;strokeColor=#b85450;strokeWidth=2;fontColor=#b85450;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="1080" y="210" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-d07" value="&lt;b&gt;D07&lt;/b&gt; Consolidação manual: resultado demora meses e não compara a autoavaliação com os outros" style="shape=partialRectangle;html=1;top=0;right=0;bottom=0;fillColor=#fff5f5;align=left;verticalAlign=middle;spacingLeft=6;whiteSpace=wrap;strokeColor=#b85450;strokeWidth=2;fontColor=#b85450;fontSize=11;" vertex="1" parent="p2-lr">
+          <mxGeometry x="1080" y="10" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p2-gt1" value="Avaliar cada pessoa do time na planilha" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p2-lg">
+          <mxGeometry x="400" y="80" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-gt2" value="Repassar o resultado ao colaborador" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p2-lg">
+          <mxGeometry x="1410" y="80" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p2-ct1" value="Fazer a autoavaliação e avaliar 2 colegas na planilha" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p2-lc">
+          <mxGeometry x="400" y="70" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-ct2" value="Receber o resultado sem comparação nem histórico" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="p2-lc">
+          <mxGeometry x="1410" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-e1" value="Ciclo encerrado" style="shape=mxgraph.bpmn.event;html=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;labelBackgroundColor=none;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=general;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="p2-lc">
+          <mxGeometry x="1460" y="145" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-d08" value="&lt;b&gt;D08&lt;/b&gt; Sem histórico nem evolução por competência; o gestor não vê quem ficou sem feedback" style="shape=partialRectangle;html=1;top=0;right=0;bottom=0;fillColor=#fff5f5;align=left;verticalAlign=middle;spacingLeft=6;whiteSpace=wrap;strokeColor=#b85450;strokeWidth=2;fontColor=#b85450;fontSize=11;" vertex="1" parent="p2-lc">
+          <mxGeometry x="1150" y="50" width="220" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p2-f1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p2-s1" target="p2-r1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p2-r1" target="p2-pg1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="p2-pg1" target="p2-gt1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="p2-pg1" target="p2-ct1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p2-gt1" target="p2-r2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="p2-ct1" target="p2-r2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p2-r2" target="p2-g3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f8" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p2-g3" target="p2-r3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=0;exitY=0.5;entryX=0.5;entryY=1;" edge="1" parent="1" source="p2-r3" target="p2-r2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f10" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p2-g3" target="p2-r4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;" edge="1" parent="1" source="p2-r4" target="p2-r5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" edge="1" parent="1" source="p2-r5" target="p2-gt2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p2-gt2" target="p2-ct2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-f14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;fontSize=11;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="p2-ct2" target="p2-e1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-a6" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="p2-d06" target="p2-r3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-a7" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="p2-d07" target="p2-r4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2-a8" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="p2-d08" target="p2-ct2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="p2-nota" value="Processo atual (AS-IS), sem sistema. As dores em vermelho (D06 a D08) estão detalhadas em bpmn-processo-avaliacao.md. O feedback do dia a dia está na página &quot;Feedback do dia a dia (atual)&quot;." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=11;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="40" y="780" width="900" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
