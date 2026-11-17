@@ -20,14 +20,14 @@ Prefixos: `FNT` fonte, `NEC` necessidade, `RF` requisito funcional, `RN` regra d
 | ID | Fonte | Situação |
 |---|---|---|
 | FNT01 | Enunciado da disciplina (PDF `trabalho_da_disciplina_de_domnio.pdf`) | Disponível |
-| FNT02 | Entrevista com a professora, na condição de especialista do domínio (transcrição da reunião) | Disponível; transcrição ainda não versionada em `docs/` |
-| FNT03 | Anotações do Caique durante a entrevista | Disponível |
+| FNT02 | Entrevista 1 com Adriana Silveira de Souza, Instituto de Informática, mestrado, telefone +55 62 8242-6161, em 20/10/2026 | Versionada em [entrevista-01-transcricao.md](../elicitacao/entrevista-01-transcricao.md) e [síntese](../elicitacao/sintese-requisitos-entrevistas.md) |
+| FNT03 | Anotações manuscritas da mesma entrevista ("Entrevista Projeto Final Domínios") | Transcritas no anexo da [transcrição](../elicitacao/entrevista-01-transcricao.md). A leitura "ad hoc e pontual" substitui a leitura anterior "a Júlia é pontual" |
 | FNT04 | Decisão do grupo (sem origem externa) | Registrada na seção 2 de `requisitos.md` |
-| FNT05 | Entrevistas do grupo (2, com nome, função e telefone) | **Pendente** — responsável: Vitória |
-| FNT06 | Questionários aplicados (2, com respostas) | **Pendente** — responsável: P4 |
+| FNT05 | Entrevista 2, exigida pela disciplina | **Pendente.** Prevista com Nádia Decisão, telefones +55 62 8106-1078 e +55 62 9281-5981. Função e e-mail ainda não informados |
+| FNT06 | Dois questionários de elicitação, com nome, função e telefone | Instrumento pronto em [questionario-elicitacao.md](../elicitacao/questionario-elicitacao.md). **Respostas ainda não aplicadas** |
 | FNT07 | Pesquisa de sistema análogo | **Pendente** — responsável: Gabriel T. A tabela da seção 8 de `requisitos.md` declara-se não verificada e não substitui esta fonte |
 
-Enquanto FNT05, FNT06 e FNT07 não existirem, as colunas de origem desta matriz apontam quase sempre para FNT02, o que é um risco de cobertura a declarar na apresentação.
+A entrevista 1 está versionada. A entrevista 2 e as respostas dos questionários ainda não existem, então as colunas de origem desta matriz apontam quase sempre para FNT02. Esse risco de cobertura deve ser declarado na apresentação.
 
 ## 3 Necessidades
 
@@ -225,7 +225,7 @@ Entidades conforme o [MER](../modelagem/modelo-entidade-relacionamento.md) atual
 | LAC05 | O caso de uso "Registrar feedback informal", na divisão de tarefas do P4, não tem RF próprio: o informal já está dentro de RF06 e UC04 | Divisão do grupo | Ou separa o requisito, ou o P4 detalha o UC04 em conjunto com o Caique |
 | LAC06 | "Ciclo de feedback" (divisão), "rodada de avaliação" (lista geral) e "coleta" (IEEE 830 e MER) são o mesmo conceito com três nomes | Interna | Fechar o termo antes das entregas individuais; sugestão: **rodada de avaliação** |
 | LAC07 | A numeração RF do IEEE 830 v0.1 colide com a da lista geral, e a rastreabilidade da seção 5 daquele documento aponta para os IDs antigos | Interna | A reescrita do IEEE 830 deve adotar os IDs da lista geral; esta matriz substitui a seção 5 de lá |
-| LAC08 | FNT05, FNT06 e FNT07 não existem, então quase toda a origem é uma única entrevista | Interna | Prioridade de cronograma |
+| LAC08 | A segunda entrevista (FNT05) e as respostas dos questionários (FNT06) ainda não existem, então quase toda a origem é a entrevista com Adriana | Interna | Aplicar o questionário a duas pessoas diferentes da entrevistada e realizar a entrevista com Nádia Decisão |
 
 ## 10 Como manter esta matriz
 

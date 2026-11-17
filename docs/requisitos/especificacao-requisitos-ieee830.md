@@ -30,7 +30,7 @@ Os identificadores `RF` representam requisitos funcionais, `RNF` requisitos não
 - F02 — `trabalho_da_disciplina_de_domnio.pdf`, páginas 1 e 2: contexto de gestão de competências, plataforma web e objetivos complementares; página 3: artefatos de requisitos e modelagem solicitados pela disciplina.
 - F03 — [IEEE 830 de 1998](https://standards.ieee.org/ieee/830/1222/): referência para a organização da especificação.
 
-F02 é uma fonte de contexto e de expectativas acadêmicas. Orientações de entrevistas, cronograma, pesquisas e prototipação do PDF não constituem ações executadas nem novos pedidos do usuário. Não foram inventadas entrevistas, respostas de questionários ou aprovações de stakeholders.
+F02 é o enunciado da disciplina. A entrevista 1 foi realizada em 20/10/2026 com Adriana Silveira de Souza e está em [entrevista-01-transcricao.md](../elicitacao/entrevista-01-transcricao.md). A lista que segue essa entrevista é [requisitos.md](requisitos.md). Este IEEE 830 é anterior a essa transcrição: aqui, 360, autoavaliação, plano de ação e metas ainda aparecem como extensão. Os identificadores `RF` deste arquivo não são os da lista geral.
 
 ### 1.5 Organização
 

@@ -15,7 +15,7 @@ O arquivo tem duas páginas:
 | Feedback do dia a dia (atual) | Gestor, Colaborador | Feedback informal, positivo ou construtivo, e o que acontece depois dele |
 | Avaliação formal anual (atual) | RH, Gestor, Colaborador | Avaliação anual em planilha, da distribuição até o resultado |
 
-Fontes: entrevista com a professora (resumo na seção 2 da [lista geral](../requisitos/requisitos.md)) e os [questionários aplicados](../elicitacao/questionarios.md) (Q1: gestora; Q2: colaborador).
+Fonte: entrevista com Adriana Silveira de Souza ([transcrição](../elicitacao/entrevista-01-transcricao.md) e resumo na seção 2 da [lista geral](../requisitos/requisitos.md)). Os questionários de elicitação ainda não foram aplicados, então não entram como evidência.
 
 ## 2 Feedback do dia a dia
 
@@ -37,14 +37,14 @@ Fontes: entrevista com a professora (resumo na seção 2 da [lista geral](../req
 
 | Dor | Descrição | Onde ocorre | Evidência | Requisitos que resolvem |
 |---|---|---|---|---|
-| D01 | Os fatos ficam no papel, no Excel ou na memória e se perdem até a avaliação. | Anotar o fato | Entrevista (dor principal); Q1 P03, P05; Q2 P03 | RF06, RF22 |
-| D02 | A conversa é marcada por fora, sem lembrete, e acaba adiada ou esquecida. | Marcar conversa | Entrevista (agendar com lembrete); Q1 P09 | RF11 |
-| D03 | O feedback é genérico, sem fato concreto, e o receptor não sabe o que mudar. | Dar o feedback | Entrevista (feedback sempre com fatos); Q2 P04, P05 | RF06, RF07, RN01 |
-| D04 | As ações são combinadas de boca, sem prazo nem registro. | Combinar ações | Entrevista (plano feito em conjunto); Q1 P08; Q2 P08 | RF10, RF12, RF13 |
-| D05 | Não há check-ins; ninguém sabe se a pessoa melhorou. | Acompanhar quando lembrar | Entrevista (check-ins e encerramento); Q1 P08 | RF14, RF15 |
-| D06 | O RH cobra as pendências uma a uma e ninguém vê quem não respondeu. | Cobrar pendentes | Entrevista (registrar quem não respondeu); Q1 P10 | RF18, RN06 |
-| D07 | A consolidação é manual, o resultado demora meses e não compara a autoavaliação com a visão dos outros. | Consolidar à mão | Entrevista (360 com autoavaliação comparada); Q1 P10; Q2 P10, P12 | RF16, RF17, RF19 |
-| D08 | Não há histórico nem evolução por competência, e o gestor não vê quem ficou sem feedback. | Receber o resultado | Entrevista (visão do time nos últimos 6 meses; evolução ao longo do tempo); Q1 P15; Q2 P15 | RF20, RF21, RF22 |
+| D01 | Os fatos ficam no papel, no Excel ou na memória e se perdem até a avaliação. | Anotar o fato | Entrevista: o registro manual se perde | RF06, RF22 |
+| D02 | A conversa é marcada por fora, sem lembrete, e acaba adiada ou esquecida. | Marcar conversa | Entrevista: agendar a sessão e enviar lembrete | RF11 |
+| D03 | O feedback é genérico, sem fato concreto, e o receptor não sabe o que mudar. | Dar o feedback | Entrevista: o fato é obrigatório; "melhorar a comunicação" precisa de um aspecto | RF06, RF07, RN01 |
+| D04 | As ações são combinadas de boca, sem prazo nem registro. | Combinar ações | Entrevista: o plano é feito pelos dois | RF10, RF12, RF13 |
+| D05 | Não há check-ins; ninguém sabe se a pessoa melhorou. | Acompanhar quando lembrar | Entrevista: pontos de monitoramento e encerramento | RF14, RF15 |
+| D06 | Ninguém vê, num só lugar, quem não respondeu a avaliação. | Cobrar pendentes | Entrevista: registrar quem não preencheu, sem punir no sistema | RF18, RN06 |
+| D07 | O resultado não compara a autoavaliação com a visão dos outros. | Consolidar o resultado | Entrevista: 360 do time, com autoavaliação comparada | RF16, RF17, RF19 |
+| D08 | Não há histórico nem evolução, e o gestor não vê quem ficou sem feedback. | Acompanhar o time | Entrevista: visão dos últimos seis meses e evolução do indicador | RF20, RF21, RF22 |
 
 ## 5 Como o sistema muda o processo
 

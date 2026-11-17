@@ -149,28 +149,29 @@ Pontos ainda sem resposta fechada:
 
 Perfis sugeridos por ela para a próxima entrevista: pessoa de RH ou gestor que ministre feedback, inclusive quem faça isso em planilha. Entrevistado do próprio grupo serve se o relato trouxer fato do trabalho, não só opinião genérica.
 
-## 10. Relação com a especificação já escrita
+## 10. Relação com a lista geral
 
-A [especificação IEEE 830](especificacao-requisitos-ieee830.md) e o [domínio](dominio.md) foram escritos antes desta transcrição e tratam 360, autoavaliação, plano de ação, metas e anonimato como extensões ou pendências. A entrevista puxa esses temas para o processo principal.
+A [lista geral de requisitos](../requisitos/requisitos.md) já absorveu esta entrevista. Os identificadores `E1-*` desta síntese são a rastreabilidade da fonte. Os `RF` da lista geral são o que o grupo vai implementar. O questionário para as outras pessoas está em [questionario-elicitacao.md](questionario-elicitacao.md).
 
-Convergências que a entrevista reforça:
+| Esta síntese | Lista geral |
+| --- | --- |
+| E1-RF01, E1-RF02, E1-RF03 | RF06, RN01 |
+| E1-RF05 | RF07 |
+| E1-RF06, E1-RN04 | RF12, RF13 |
+| E1-RF07 | RF14, RF15 |
+| E1-RF08 | RF11 |
+| E1-RF09, E1-RF10 | RF12, RF16 |
+| E1-RF11, E1-RF12 | RF04, RF05 |
+| E1-RF15 | RF22 |
+| E1-RF16 | RF21 |
+| E1-RF17 | RF01, RF02, RF03 |
+| E1-RF18, E1-RF19 | RN03, RN04, RF16 |
+| E1-RF20, E1-RF21, E1-RF22 | RF16, RF17, RF19 |
+| E1-RF23, E1-RN10 | RF18, RN06 |
+| E1-RF28, E1-RN09 | RF08, RN02 |
 
-- Fato e indicador no lugar de texto puramente subjetivo.
-- Histórico preservado, sem exclusão do feedback enviado.
-- Gestor, profissional e RH como papéis diferentes.
-- Questionário com parâmetros reutilizáveis e leitura da evolução.
-- Uma organização, com cadastro de pessoas.
-- Foco em desenvolvimento, não em folha de pagamento.
+Decisões do grupo que fecham pontos ainda abertos nesta síntese: a rodada usa escala de 1 a 5; o feedback enviado não se edita, só recebe comentário; o lembrete fica na plataforma. Ficaram de fora da lista geral, embora a entrevista tenha tratado: peso entre questões, avaliação da própria sessão, modelo de questionário separado e importação de planilha.
 
-Tensões para o grupo decidir, sem que esta síntese reescreva a especificação:
+A [especificação IEEE 830](../requisitos/especificacao-requisitos-ieee830.md) e o [domínio](../modelagem/dominio.md) são anteriores a esta transcrição. Neles, 360, autoavaliação, plano de ação e metas ainda aparecem como extensão, e a escala é 0 a 10, 0 a 5 ou booleano. A lista geral já trouxe 360, autoavaliação e plano para o escopo, e fixou a nota da rodada em 1 a 5. Esses dois arquivos antigos não devem ser usados como lista de requisitos.
 
-| Tema | Entrevista 1 | Documentação anterior |
-| --- | --- | --- |
-| Autoavaliação | Entra no 360. | O núcleo documentado não tem autoavaliação. |
-| 360 e pares | Fazem parte do processo descrito. 360 é todos com todos no time. | Tratados como extensão. |
-| Plano, meta e check-in | São o acompanhamento que justifica o sistema. | Tratados como extensão. |
-| Anonimato | Gestor é identificado. Par pode omitir o emissor. RH vê a identidade. | Reciprocidade com identidade conhecida; anonimato não fechado. |
-| Escala | Ordinal ou numérica, com nível intermediário; texto estruturado. Pesos são desejáveis. | Escalas 0–10, 0–5 e booleano, sem peso. |
-| Edição | Exclusão recusada. Edição não foi autorizada. | Respostas enviadas ficam imutáveis; rascunho ainda pode mudar. |
-
-Enquanto a segunda entrevista não ocorrer, estes identificadores `E1-*` são a rastreabilidade da primeira fonte. Eles ainda não substituem os `RF` da especificação.
+A segunda entrevista, com Nádia Decisão, ainda não foi feita. Até lá, `E1-*` descreve só a fonte Adriana Silveira de Souza.
